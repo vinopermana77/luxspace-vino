@@ -1,0 +1,35 @@
+Database
+--------
+
+Produk:
+1. Nama Produk
+2. Harga Produk
+3. Deskripsi Produk
+4. SLug
+5. Soft Deletes
+
+Galeri Produk:
+1. Relasi ke produk
+2. URL Gambar
+3. Is featured
+4. Soft Deletes
+
+Cart:
+1. Relasi ke user
+2. Relasi ke produk
+
+Transaksi:
+1. Relasi ke user
+2. Data diri dari pembeli
+3. Data kurir
+4. Data pembayaran
+5. Total Harga
+6. Status
+
+Item Transaksi:
+1. Relasi ke user
+2. Relasi ke produk
+3. Relasi ke Transaksi
+
+User
+1. Roles (Admin/User)
